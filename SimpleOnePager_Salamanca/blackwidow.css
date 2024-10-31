@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'bw font'; /* Name your font family */
+    src: url('bw font.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+
+
+header{
+    font-family: 'bw font';
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+    text-align: center;
+    margin-bottom: auto;
+    font-size:xx-large;
+}
+
+p{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+.header img{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgb(118, 2, 2);
+    color: white;
+    font-size: medium;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    /* position: fixed */
+
+    width: 100%;
+}
+
+nav li{
+    float: left;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: bisque;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+section{
+    background-color: dimgray;
+    color: white;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    font-size: large;
+}
+
+.alternate {
+    background-color: rgb(53, 52, 52);
+}
+
+footer{
+    background-color: maroon;
+    color: bisque;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: auto;
+    font-size: large;
+}
+
+h3{
+    color: bisque;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* img{ 
+    float: left;
+}
+*/
+
+.alternate img {
+    margin-bottom: 70px;
+    float: right;
+}
+
+a{
+    color: white;
+}

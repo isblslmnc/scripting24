@@ -1,0 +1,208 @@
+/* Heading Font */
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+/* Paragraph Font */
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "YEAR" 2050;
+}
+  
+h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+h2 {
+    font-size: 70px;
+}
+  
+p, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+}
+
+.a-link {
+    color: #7b8079;
+}
+
+.navbar {
+    background-color: #183238;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: 600;
+}
+
+#myVideo {
+    display: table;
+    position: relative;
+    width: 100%;
+  }
+
+#header-geography {
+    background: url(../images/geography/geography_header.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#parallax-image-geography {
+    background: url(../images/geography/elnido_town.jpg) no-repeat center center fixed;
+    display: table;
+    height: 50vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#header-attractions {
+    background: url(../images/attractions/attractions_header.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#header-economy {
+    background: url(../images/economy/economy_header.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#header-people {
+    background: url(../images/people/people_header.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#header-reference {
+    background: url(../images/reference/elnido_droneShot.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.header-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header-text h1 {
+    font-size: 120px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    color: white;
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "YEAR" 1979;
+}
+
+@media only screen and (max-width: 1500px) {
+    .header-text h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .header-text h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .header-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .header-text h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .header-text h1 {
+        font-size: 16px;
+    }
+}
+
+#about .custom-p {
+    text-align: center; 
+    font-size: 24px; 
+}
+
+#about .custom-p-2 {
+    font-size: 24px; 
+}
+
+#about .custom-p-economy {
+    font-size: 24px; 
+}
+
+.column.zoomIn img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .7s ease-in-out;
+	transition: .7s ease-in-out;
+}
+.column.zoomIn:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.column img {
+	display: block;
+	width: 100%;
+}
+
+figure {
+	overflow: hidden;
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#footer {
+    background-color: #7b8079;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#footer .custom-p {
+    font-weight: 600;
+}

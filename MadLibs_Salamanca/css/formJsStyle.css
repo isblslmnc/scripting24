@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'formulafont';
+    src: url('../formulawide.ttf');
+  }
+
+
+header{
+    background-image: url("../images/drivers.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* background-attachment: fixed; */
+}
+
+.head{
+    font-family: 'formulafont';
+    background-color: #af0011;
+    opacity: 75%;
+    padding: 30px;
+}
+
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#output{
+    background-color: #af0011;
+    padding: 75px;
+}
+
+#footer{
+    background-color: #383737;
+    opacity: 50%;
+    text-align: center;
+}
+
+.customHeight{
+    height:40vh;
+}
+
+.btn-outline-danger {
+    color: white;
+    background-color: #dc3545;
+}
